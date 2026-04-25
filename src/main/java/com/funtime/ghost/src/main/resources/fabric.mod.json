@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ghost-client",
+  "version": "${version}",
+  "name": "Sodium Extra",
+  "description": "Sodium addon",
+  "authors": ["Me"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.funtime.ghost.GhostMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
